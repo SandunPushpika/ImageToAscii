@@ -2,7 +2,7 @@ import math
 from PIL import Image, ImageDraw
 
 file = open("imgtoascii.txt","w")
-im = Image.open('Images/car.jfif')
+im = Image.open('Images/car2.jpg')
 width, height = im.size
 
 charWidth = 8
